@@ -1,2 +1,23 @@
-# prem-laliga-probs
-A football probability dashboard built with Dash &amp; Plotly. It calculates EPL &amp; LaLiga game outcome probabilities (Home, Draw, Away) from betting odds and displays them in an interactive table + chart.
+EPL & LaLiga Match Probabilities Dashboard ⚽📊
+
+This project calculates and visualizes football match probabilities (Home, Draw, Away) from odds data.  
+Built with Dash, Plotly, and Pandas.
+
+Features
+- Probability calculation from odds
+- Interactive table with styled rows
+- Plotly bar chart (green home, grey draw, red away)
+- Reads static CSV file
+
+Tech Stack
+- Python
+- Dash
+- Plotly
+- Pandas
+
+Run locally
+```bash
+git clone https://github.com/<yourusername>/prem_laliga_probs.git
+cd prem_laliga_probs
+pip install -r requirements.txt
+python app.py
